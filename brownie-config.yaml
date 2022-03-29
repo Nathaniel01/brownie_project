@@ -5,5 +5,8 @@ compiler:
     remappings:
       - '@chainlink=smartcontractkit/chainlink-brownie-contracts@0.4.0'
 dotenv: .env
+networks:
+  rinkeby:
+    eth_usd_price_feed: '0x8A753747A1FA494EC906CE90E9F37563A8AF630E'
 wallets:
   from_key: ${PRIVATE_KEY}
